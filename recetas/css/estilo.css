@@ -1,0 +1,94 @@
+body{background:url(../img/fondo-body.jpg) fixed;
+margin:0;
+padding:0;
+font-family:sans-serif;}
+#tenedor{position:fixed;
+bottom:0;
+right:0;}
+#hormigas{position:fixed;
+top:0;
+left:0;}
+
+#columna{background:url(../img/fondo-columna.jpg);
+width:810px;
+margin:auto;
+padding:0 30px 30px 30px;
+/*box-shadow:0 0 40px #000;*/
+position:relative;
+z-index:9999;}
+
+#encabezado{background:#feffdc url(../img/textura-papel.png);
+padding:20px;
+margin:0 0 30px 0;
+border-right:solid 2px #9c4709;
+border-left:solid 2px #9c4709;
+border-bottom:solid 2px #9c4709;
+/*box-shadow:0 0 10px #000;
+border-radius:0 0 70px 70px;*/}
+#encabezado h1,#columna h2{font-family:Garamond, 'Hoefler Text', Times New Roman, Times, serif;
+text-align:center;
+color:#6f5522;
+border-top:solid 2px #6f5522;
+border-bottom:solid 2px #6f5522;
+padding:10px;}
+
+.receta-min{background:#feffdc url(../img/textura-papel.png);
+width:345px;
+float:left;
+margin:0 0 30px 27px;
+padding:10px;
+/*box-shadow:0 0 15px #000;
+border-radius:5px;*/}
+.receta-min img{display:block;
+margin:auto;
+border-radius:10px;
+padding:10px;
+background:#fff;
+/*box-shadow:0 0 5px #000;*/}
+.receta-min h2{text-align:center;
+font-family:Garamond, 'Hoefler Text', Times New Roman, Times, serif;}
+.receta-min a{text-decoration:none;
+color:#9c4709;}
+.receta-min a:link{color:#9c4709;}
+.receta-min a:visited{color:#9c4709;}
+.receta-min a:hover{color:#9c4709;}
+
+#ingredientes{float:left;
+width:230px;
+background:#9c4709 url(../img/textura-papel.png);
+color:#fff;
+padding:10px;
+/*border-radius:10px 0 0 10px;*/}
+#ingredientes h3,#receta h2,#receta h3{font-family:Garamond, 'Hoefler Text', Times New Roman, Times, serif;}
+#columna h2{background:#feffdc url(../img/textura-papel.png);}
+
+#receta{float:left;
+width:535px;
+padding:10px;
+background:#fff;
+/*border-radius:0 10px 10px 10px;*/}
+#receta img{padding:10px;
+background:#feffdc;
+border:solid 1px #9c4709;
+margin:15px;
+/*border-radius:5px;*/}
+#receta a{font-family:Garamond, 'Hoefler Text', Times New Roman, Times, serif;
+text-align:center;
+text-decoration:none;
+background:#feffdc;
+color:#9c4709;
+padding:10px;
+margin:auto;
+display:block;
+width:100px;
+border:solid 1px #9c4709;}
+#receta a:link{text-decoration:none;
+color:#9c4709;}
+#receta a:visited{text-decoration:none;
+color:#9c4709;}
+#receta a:hover{text-decoration:none;
+background:#9c4709;
+color:#feffdc;
+border:solid 1px #feffdc;}
+
+.clear{clear:both;}

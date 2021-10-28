@@ -1,0 +1,35 @@
+#menu{width:1000px;
+margin:0 auto;
+-webkit-transition: margin 0.5s ease;
+list-style-type:none;
+padding:0;}
+#menu:hover{margin: 20px auto;}
+#menu li{width:249px;
+float:left;
+border-left:1px solid #aaa;
+text-align:center;}
+
+#menu a{background:#eee;
+display:block;
+padding:1em;}
+
+.sub a{background:#eee url(flecha.png) no-repeat 220px !important;
+-webkit-transition: background 1s ease;}
+
+.sub a:hover{background:#eee url(flecha.png) no-repeat 200px !important;}
+
+#menu .ultimo{width:248px;
+border-right:1px solid #aaa;}
+
+#menu ul{display:none;
+padding:0;
+list-style-type:none;}
+#menu ul li{border:none;}
+#menu ul a{background:#ccc !important;
+-webkit-transition: background 0.5s ease;}
+#menu ul a:link{}
+#menu ul a:visited{}
+#menu ul a:hover{background:red !important;}
+#menu>li:hover ul{display:block;}
+
+.clear{clear:both;}

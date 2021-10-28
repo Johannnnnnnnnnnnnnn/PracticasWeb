@@ -1,0 +1,45 @@
+body{font-family:Helvetica,Arial,sans-serif;
+margin:0;
+padding:0;}
+
+#principal{width:960px;
+padding:10px;
+background:#ccc;
+margin:0 auto;}
+
+#titulo{background:#000;
+text-align:center;
+color:#fff;
+padding:10px;}
+
+#sidebar{background:#eee;
+width:200px;
+float:left;}
+
+#contenido{width:720px;
+float:left;
+background:#fff;
+padding:10px;
+margin:0 0 0 20px;}
+
+#pie{background:rgb(200,50,0);
+padding:10px;
+text-align:center;
+color:#fff;}
+
+h1{margin:0;}
+
+img{padding:10px;
+border:solid 2px #ccc;}
+
+.clear{clear:both;}
+
+.img-centro{display:block;
+margin:auto;}
+
+.img-der{display:inline;
+float:right;}
+
+.img-izq{display:inline;
+float:left;
+margin:0 15px 0 0;}

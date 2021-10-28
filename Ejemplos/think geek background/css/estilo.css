@@ -1,0 +1,10 @@
+body{background:#00a2df url(../img/fondo-base.png) repeat-x bottom fixed;}
+
+#desaparece{}
+
+#desaparece #contenedor{background:url(../img/fondo-fin-blanco.png) repeat-x bottom;}
+
+#contenedor{width:800px;
+margin:0 auto;
+padding:10px 30px;
+background:url(../img/fondo-fin.png);}
